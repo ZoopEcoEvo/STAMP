@@ -6,3 +6,5 @@
 Background/project_folder_schematic.afdesign
 /Background/analysis_plan_files
 *.html
+.Rproj.user
+STAMP.Rproj
