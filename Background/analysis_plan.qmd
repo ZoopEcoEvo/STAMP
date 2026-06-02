@@ -16,7 +16,7 @@ format:
 
 ## Project Description
 
-This document should be used to outline the analysis plan for a project. It is most useful for this to be completed in full before a project is officially started, but may benefit from information obtained during preliminary trials.
+This document should be used to outline the analysis plan for a project. It is most useful for this to be completed in full before a project is officially started, but may benefit from information obtained during preliminary trials. I'm adding text here to this paragraph. 
 
 ## Questions, Objectives, Hypotheses
 
