@@ -17,30 +17,28 @@ format:
 
 This document should be used to outline the analysis plan for a project. It is most useful for this to be completed in full before a project is officially started, but may benefit from information obtained during preliminary trials. I'm adding text here to this paragraph. 
 
-This experiment examines how exposure to environmentally relevant MP concentrations affects the thermal tolerance (CTmax), acclimation capacity, and metabolic rate of Skistodiaptomus pallidus under ambient and elevated temperature conditions. Results will improve our understanding of how multiple stressors interact to shape copepod resilience in a warming, plastic-polluted world
+This experiment examines how exposure to environmentally relevant MP concentrations affects the thermal tolerance (CTmax), acclimation capacity, and metabolic rate of Skistodiaptomus pallidus under ambient and elevated temperature conditions. The CTmax of four treatment groups will be compared at the end of a 7 day treatment period, with each group having different levels of microplastics (either micro plastics present or no micro plastics) and different temperatures (either cool (16C) or warm (22C)). Results will improve our understanding of how multiple stressors interact to shape copepod resilience in a warming, plastic-polluted world.
 
 ## Questions, Objectives, Hypotheses
 
 This section should list all of the questions and objectives for the project. Remember to keep them SMART:
 
 -   Specific
+-   Measurable
+-   Assignable (who's going to do the work?)
+-   Realistic
+-   Time-bounded
+2 CTmax assays per day?
+It is also helpful to number the questions / objectives.
+
 Questions:
-1. How does exposure to maps affect the thermal tolerance of copepods?
-2. do ups reduce copepods ability to acclimate to warming temps?
+1. How does exposure to MPs affect the thermal tolerance of copepods?
+2. do MPs reduce copepods ability to acclimate to warming temps?
 3. does exposure to MP's change the metabolic rate of copepods?
 
 Hypotheses: 
 1. Exposure to predicted levels of MP's will cause the thermal limit to be higher because stress pathways are activated
 2. MP's will increase acclimation ability
--   Measurable
-
--   Assignable (who's going to do the work?)
- Undecided 
--   Realistic
-
--   Time-bounded
-2 CTmax assays per day?
-It is also helpful to number the questions / objectives.
 
 
 ## Variable Descriptions
@@ -48,6 +46,8 @@ It is also helpful to number the questions / objectives.
 | Variable Name              | Variable Description                  | Response or Explanatory?     | Relevant Question or Objective                                            | Data Type                                  | Units                        | Expected Range                | How are zeros and missing data recorded?     |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 | Short but descriptive name | Thorough description of the variable  | AKA dependent or independent | Which of the stated research questions or objectives is this related to?  | Numeric, categorical, ordinal factor, etc. | Units values are recorded in | If known - can be approximate | Important - no empty cells in the data files |
+
+| CTmax | Critical thermal maxima, the upper thermal limit of an organism, recorded when the animal stops responding to stimuli  | dependent | Question 1 & 2  | Numeric | degrees C | 25C-45C | "NA" |
 
 ## Study Design
 
