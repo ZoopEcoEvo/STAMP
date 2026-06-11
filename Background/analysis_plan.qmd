@@ -15,9 +15,7 @@ format:
 
 ## Project Description
 
-This document should be used to outline the analysis plan for a project. It is most useful for this to be completed in full before a project is officially started, but may benefit from information obtained during preliminary trials. I'm adding text here to this paragraph. 
-
-This experiment examines how exposure to environmentally relevant MP concentrations affects the thermal tolerance (CTmax), acclimation capacity, and metabolic rate of Skistodiaptomus pallidus under ambient and elevated temperature conditions. The CTmax of four treatment groups will be compared at the end of a 7 day treatment period, with each group having different levels of microplastics (either micro plastics present or no micro plastics) and different temperatures (either cool (16C) or warm (22C)). Results will improve our understanding of how multiple stressors interact to shape copepod resilience in a warming, plastic-polluted world.
+This experiment examines how exposure to concentrations of microplastics relevant to end-of-century predictions affects the thermal tolerance (CTmax), acclimation capacity, and metabolic rate of Skistodiaptomus pallidus under ambient and elevated temperature conditions relevant to end-of-century heatwave predictions. The CTmax of four treatment groups will be compared at the end of a 7 day treatment period, with each group having either no MPs or MPs present and having either control temperatures (16C) or heatwave temperatures (22C). Results will improve our understanding of how multiple stressors interact to shape copepod resilience in a warming, plastic-polluted world.
 
 ## Questions, Objectives, Hypotheses
 
@@ -32,26 +30,62 @@ This section should list all of the questions and objectives for the project. Re
 It is also helpful to number the questions / objectives.
 
 Questions:
-1. How does exposure to MPs affect the thermal tolerance of copepods?
-2. do MPs reduce copepods ability to acclimate to warming temps?
-3. does exposure to MP's change the metabolic rate of copepods?
+1. How does exposure to end-of-century concentrations of MPs affect the thermal tolerance of S. pallidus?
+2. Do MPs affect S. pallidus's ability to acclimate to end-of-century heatwave temperatures?
+3. Does exposure to MPs affect the metabolic rate of S. pallidus?
 
 Hypotheses: 
-1. Exposure to predicted levels of MP's will cause the thermal limit to be higher because stress pathways are activated
-2. MP's will increase acclimation ability
+1. Exposure to end-of-century concentrations of MPs will cause an increase in thermal limits because of stress pathways activated by the MPs being similar to thermal resistance stress pathways.
+2. MPs will increase S. pallidus's acclimation ability to end-of-century heatwave temperatures.
+3. Exposure to MPs will increase the metabolic rate of S. pallidus to help cope with the stress.
 
 
 ## Variable Descriptions
 
 | Variable Name              | Variable Description                  | Response or Explanatory?     | Relevant Question or Objective                                            | Data Type                                  | Units                        | Expected Range                | How are zeros and missing data recorded?     |
 |---------|---------|---------|---------|---------|---------|---------|---------|
-| Short but descriptive name | Thorough description of the variable  | AKA dependent or independent | Which of the stated research questions or objectives is this related to?  | Numeric, categorical, ordinal factor, etc. | Units values are recorded in | If known - can be approximate | Important - no empty cells in the data files |
 
-| CTmax | Critical thermal maxima, the upper thermal limit of an organism, recorded when the animal stops responding to stimuli  | dependent | Question 1 & 2  | Numeric | degrees C | 25C-45C | "NA" |
+| CTmax | Critical thermal maxima, the upper thermal limit of an organism, recorded when the animal stops responding to stimuli  | dependent | Question/Objective 1, 2, & 3  | Numeric | degrees C | 25C-45C | "NA" |
+| Temperature Treatment | Control (16C) or Warm (22C), acclimation temperature for each treatment | independent | Question/Objective 1,2  | categorical | degrees C |  |  |
+| MP Treatment | MP: None or MP: Present | independent | Question/Objective 1, 2, & 3  | categorical | CP, OP |  |  |
+| Tube | Tube (1-12) that is used for each animal in each CTmax assay  |  |  | categorical |  | 1-12 |  |
+| Thermometer | Thermometer that is used for recording temperature during each CTmax assay  | |  | Numeric | ID |  |  |
+| Water Bath | Water bath that is used as an environment for each CTmax assay  |  | | Numeric | ID | | |
+| Start Time | Time that the water heater is plugged in and the experiment is officially started  | independent | Questions 1 & 2 | Numeric | Military time | | |
+| Acclimation Day | Day that each dish has been acclimating, day 0 is the day that they are moved to their respective incubators for acclimation  | independent | Question/Objective 1, 2   | Numeric | Days | 0-7 | |
+| Experiment Date | Date that the experiment is conducted  |  |  | Numeric | DD/MM/YYYY | | |
+| Experimental Replicate | Replicate that the experiment is occurring  |  |  | Numeric |  | 0-5 |  |
+
 
 ## Study Design
 
 This section should provide a detailed description of the study design. In addition to protocols and methodological details, this section should include a detailed accounting of replication and sample sizes.
+
+
+Species: Skistodiaptomus pallidus #Species 
+Generation: F>3
+Temperature Treatments: 16C (Control), 22C (Warm)
+MP Treatments: None, Present
+Trait Measurement: CTmax, *Metabolic rate?*
+Population: 
+Replicates: 3
+Animals/dish = 
+Total animals needed =  (x/replicate)
+
+1. Animals are collected from field and brought to lab.
+2. On setup day X adult females are selected from the lab culture and are evenly split into four different dishes with XmL of DIO and ~0.5mL-1.5mL C. ozolini.
+3. By the end of setup there will be four dishes: N+C, N+W, MP+C, MP+W, and each dish will have X animals.
+Equation used to get # animals/dish: 
+Animals/dish = ((# of assays * # of tubes)/# of dishes) + (0.5 * # of assays)
+4. Dishes are given their respective amounts of MPs.
+5. Each dish is placed into their respective incubators, a temperature sensor is also placed in the incubators in a dish with 150mL of tap water to closely monitor the internal temperatures of the incubators (in the incubator there are two shelves, the temperature treatments are always on the same shelf as one another but alternate every replicate, also the incubator that is used as the control or the warm alternates every replicate).
+6. On day 7, 4 CTmax assays are ran using 2-3 animals from each dish in each assay. Tube placements for each assay are randomized using Skisto_LARA/Scripts/00_tube_assignments.R
+
+*Is there a metabolic rate aspect?*
+
+7. This is replicated 3 times.
+
+
 
 Consider including a schematic or diagram. This could be an embedded image, or an encoded diagram (e.g. Quarto includes native support for [mermaid diagrams](https://quarto.org/docs/authoring/diagrams.html#overview)).
 
@@ -60,7 +94,11 @@ Consider including a schematic or diagram. This could be an embedded image, or a
 
 ### Data Processing 
 
-You may need to 'clean' the data after collection. This section should describe (and explain the utility of) any planned transformations, filtering, etc.
+Data is processed in the controller script:
+- Pop = "thermometer" is filtered out
+- CTmax values < 34.5 are filtered out
+- acc_hours is defined
+- datetime is mutated to fit our date and time format
 
 ### Key Summary Statistics
 
