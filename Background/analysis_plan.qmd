@@ -55,6 +55,7 @@ Hypotheses:
 | Acclimation Day | Day that each dish has been acclimating, day 0 is the day that they are moved to their respective incubators for acclimation  | independent | Question/Objective 1, 2   | Numeric | Days | 0-7 | |
 | Experiment Date | Date that the experiment is conducted  |  |  | Numeric | DD/MM/YYYY | | |
 | Experimental Replicate | Replicate that the experiment is occurring  |  |  | Numeric |  | 0-5 |  |
+| Food | Type of phytoplankton used to feed copepods, as well as the amount fed and frequency of feedings | independent | Drops/cell count? | Numeric |
 
 
 ## Study Design
