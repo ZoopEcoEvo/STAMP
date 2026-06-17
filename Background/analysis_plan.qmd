@@ -1,5 +1,5 @@
 ---
-title: "Project Analysis Plan"
+title: "Skistodiaptomus Thermal Acclimation with MicroPlastics"
 author: Matt Sasaki 
 date: last-modified 
 date-format: "YYYY-MM-DD" 
@@ -12,7 +12,6 @@ format:
       - text: Project Repo
         href: https://github.com/ZoopEcoEvo
 ---
-
 ## Project Description
 
 This document should be used to outline the analysis plan for a project. It is most useful for this to be completed in full before a project is officially started, but may benefit from information obtained during preliminary trials. I'm adding text here to this paragraph. 
@@ -24,6 +23,15 @@ This experiment examines how exposure to environmentally relevant MP concentrati
 This section should list all of the questions and objectives for the project. Remember to keep them SMART:
 
 -   Specific
+-   Assignable (who's going to do the work?)
+ Undecided 
+-   Realistic
+
+-   Time-bounded
+2 CTmax assays per day?
+It is also helpful to number the questions / objectives.
+
+
 Questions:
 1. How does exposure to maps affect the thermal tolerance of copepods?
 2. do ups reduce copepods ability to acclimate to warming temps?
@@ -34,13 +42,6 @@ Hypotheses:
 2. MP's will increase acclimation ability
 -   Measurable
 
--   Assignable (who's going to do the work?)
- Undecided 
--   Realistic
-
--   Time-bounded
-2 CTmax assays per day?
-It is also helpful to number the questions / objectives.
 
 
 ## Variable Descriptions
