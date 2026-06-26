@@ -18,38 +18,6 @@ This experiment examines how exposure to concentrations of microplastics relevan
 
 ## Questions, Objectives, Hypotheses
 
-This section should list all of the questions and objectives for the project. Remember to keep them SMART:
-
--   Specific
-<<<<<<< HEAD
--   Assignable (who's going to do the work?)
- Undecided 
--   Realistic
-
--   Time-bounded
-2 CTmax assays per day?
-It is also helpful to number the questions / objectives.
-
-
-Questions:
-1. How does exposure to maps affect the thermal tolerance of copepods?
-2. do ups reduce copepods ability to acclimate to warming temps?
-3. does exposure to MP's change the metabolic rate of copepods?
-
-Hypotheses: 
-1. Exposure to predicted levels of MP's will cause the thermal limit to be higher because stress pathways are activated
-2. MP's will increase acclimation ability
--   Measurable
-
-=======
--   Measurable
--   Assignable (who's going to do the work?)
--   Realistic
--   Time-bounded
-2 CTmax assays per day?
-It is also helpful to number the questions / objectives.
->>>>>>> 1be437fb982a541907cc8827e13136f5ba920c20
-
 Questions:
 1. How does exposure to end-of-century concentrations of MPs affect the thermal tolerance of S. pallidus?
 2. Do MPs affect S. pallidus's ability to acclimate to end-of-century heatwave temperatures?
@@ -88,11 +56,11 @@ Species: Skistodiaptomus pallidus #Species
 Generation: F>3
 Temperature Treatments: 16C (Control), 22C (Warm)
 MP Treatments: None, Present
-Trait Measurement: CTmax, *Metabolic rate?*
-Population: 
+Trait Measurement: CTmax
+Population: *which population are we going to use: unknown*  
 Replicates: 3
-Animals/dish = 10 
-Total animals needed =  (x/replicate)
+Animals/dish = 30 
+Total animals needed = 90 (x/replicate)
 
 1. Animals are collected from field and brought to lab.
 2. On setup day X adult females are selected from the lab culture and are evenly split into four different dishes with XmL of DIO and ~0.5mL-1.5mL C. ozolini.
@@ -102,9 +70,6 @@ Animals/dish = ((# of assays * # of tubes)/# of dishes) + (0.5 * # of assays)
 4. Dishes are given their respective amounts of MPs.
 5. Each dish is placed into their respective incubators, a temperature sensor is also placed in the incubators in a dish with 150mL of tap water to closely monitor the internal temperatures of the incubators (in the incubator there are two shelves, the temperature treatments are always on the same shelf as one another but alternate every replicate, also the incubator that is used as the control or the warm alternates every replicate).
 6. On day 7, 4 CTmax assays are ran using 2-3 animals from each dish in each assay. Tube placements for each assay are randomized using Skisto_LARA/Scripts/00_tube_assignments.R
-
-*Is there a metabolic rate aspect? Nope*
-
 7. This is replicated 3 times.
 
 
@@ -124,13 +89,40 @@ Data is processed in the controller script:
 
 ### Key Summary Statistics
 
-This section will typically be short. What are the main summary statistics of interest (e.g. mean and standard error, coefficient of variation, etc.), and for which groups will you calculate these values?
+| Summary Statistic    |  Calculated For Which Groups  |
+|---------|---------|---------|---------|---------|---------|---------|---------|
+| Mean +/- Standard Deviation | CTmax for each treatment|
+| Coefficient of Variation | CTmax for each treatment + thermal tolerance, how it changes over the course of the experiment, how the mean of rate of acclimation is across treatments |
+
 
 ### Statistical Tests of Hypotheses
 
-The main statistics section will outline the statistical analyses planned and how they will be interpreted to test the stated hypotheses. This includes tests of assumptions, how model fit will be evaluated, any post-hoc tests that could be needed, etc. This section should also include a brief description of any non-standard analyses, and any caveats or expected places where caution will be warranted when interpreting or extrapolating the results. Throughout this section, it is critical that the analyses described are clearly linked to the questions and hypotheses proposed above.
+Hypothesis 1: 
 
-This section should also describe how missing values will be handled. If planned analyses are robust to missing values, state that in this section - it can be helpful to have a reminder of this after data is collected.
+- Tests of assumptions:
+
+- How model fit will be evaluated: Using the performance package in R
+- Post-hoc tests:
+- Caveats/Caution when interpreting results:
+- Handling missing values:
+
+Hypothesis 1:
+- Tests of assumptions:
+
+- How model fit will be evaluated: 
+Using the performance package in R
+
+- Post-hoc tests: 
+The CTmax of the no-MP and MP-present groups will be compared at each acclimation temperature. Support for this hypothesis would appear as consistently higher CTmax in MP-present animals.
+
+
+- Caveats/Caution when interpreting results:
+This design is limited to two stressors, other potentially interacting factors (e.g., food availability, oxygen levels, pollutants) are not accounted for and could influence thermal tolerance in ways this experiment cannot detect.
+
+- Handling missing values:
+Any missing values will not be included in final data.
+
+
 
 ### Alternative Approaches
 
