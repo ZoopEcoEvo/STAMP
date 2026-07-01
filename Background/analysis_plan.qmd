@@ -91,7 +91,7 @@ Data is processed in the controller script:
 
 | Summary Statistic    |  Calculated For Which Groups  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
-| Mean +/- Standard Deviation | CTmax for each treatment|
+| Mean +/- Standard Deviation | CTmax for each treatment: N+C, N+W, MP+C, MP+W|
 | Coefficient of Variation | CTmax for each treatment + thermal tolerance, how it changes over the course of the experiment, how the mean of rate of acclimation is across treatments |
 
 
