@@ -11,123 +11,246 @@ format:
     other-links:
       - text: Project Repo
         href: https://github.com/ZoopEcoEvo
+editor: 
+  markdown: 
+    wrap: 72
 ---
+
 ## Project Description
 
-This experiment examines how exposure to concentrations of microplastics relevant to end-of-century predictions affects the thermal tolerance (CTmax), acclimation capacity, and metabolic rate of Skistodiaptomus pallidus under ambient and elevated temperature conditions relevant to end-of-century heatwave predictions. The CTmax of four treatment groups will be compared at the end of a 7 day treatment period, with each group having either no MPs or MPs present and having either control temperatures (16C) or heatwave temperatures (22C). Results will improve our understanding of how multiple stressors interact to shape copepod resilience in a warming, plastic-polluted world.
+This experiment examines how exposure to concentrations of microplastics
+relevant to end-of-century predictions affects the thermal tolerance
+(CTmax), acclimation capacity, and metabolic rate of Skistodiaptomus
+pallidus under ambient and elevated temperature conditions relevant to
+end-of-century heatwave predictions. The CTmax of four treatment groups
+will be compared at the end of a 7 day treatment period, with each group
+having either no MPs or MPs present and having either control
+temperatures (16C) or heatwave temperatures (22C). Results will improve
+our understanding of how multiple stressors interact to shape copepod
+resilience in a warming, plastic-polluted world.
 
 ## Questions, Objectives, Hypotheses
 
-Questions:
-1. How does exposure to end-of-century concentrations of MPs affect the thermal tolerance of S. pallidus?
-2. Do MPs affect S. pallidus's ability to acclimate to end-of-century heatwave temperatures?
+Questions: 1. How does exposure to end-of-century concentrations of MPs
+affect the thermal tolerance of S. pallidus? 2. Do MPs affect S.
+pallidus's ability to acclimate to end-of-century heatwave temperatures?
 3. Does exposure to MPs affect the metabolic rate of S. pallidus?
 
-Hypotheses: 
-1. Exposure to end-of-century concentrations of MPs will cause an increase in thermal limits because of stress pathways activated by the MPs being similar to thermal resistance stress pathways.
-2. MPs will increase S. pallidus's acclimation ability to end-of-century heatwave temperatures.
-3. Exposure to MPs will increase the metabolic rate of S. pallidus to help cope with the stress.
-
+Hypotheses: 1. Exposure to end-of-century concentrations of MPs will
+cause an increase in thermal limits because of stress pathways activated
+by the MPs being similar to thermal resistance stress pathways. 2. MPs
+will increase S. pallidus's acclimation ability to end-of-century
+heatwave temperatures. 3. Exposure to MPs will increase the metabolic
+rate of S. pallidus to help cope with the stress.
 
 ## Variable Descriptions
 
-| Variable Name              | Variable Description                  | Response or Explanatory?     | Relevant Question or Objective                                            | Data Type                                  | Units                        | Expected Range                | How are zeros and missing data recorded?     |
-|---------|---------|---------|---------|---------|---------|---------|---------|
++-------+----------+-----------------+-------+-------+-------+-------+-------+
+| Var   | Variable | Response or     | Rel   | Data  | Units | Exp   | How   |
+| iable | Des      | Explanatory?    | evant | Type  |       | ected | are   |
+| Name  | cription |                 | Que   |       |       | Range | zeros |
+|       |          |                 | stion |       |       |       | and   |
+|       |          |                 | or    |       |       |       | mi    |
+|       |          |                 | Obje  |       |       |       | ssing |
+|       |          |                 | ctive |       |       |       | data  |
+|       |          |                 |       |       |       |       | reco  |
+|       |          |                 |       |       |       |       | rded? |
++=======+==========+=================+=======+=======+=======+=======+=======+
+| |     | | Criti  | | d             | 1 & 2 | Nu    | De    | 25    | |     |
+| CTmax | cal ther |                 |       | meric | grees |       |       |
+|       |          | ependent        |       |       | C     | C-45C | "NA"  |
+|       | mal      |                 |       |       |       |       |       |
+|       | maxima,  |                 |       |       |       |       |       |
+|       | the      |                 |       |       |       |       |       |
+|       | upper    |                 |       |       |       |       |       |
+|       | ther mal |                 |       |       |       |       |       |
+|       | limit of |                 |       |       |       |       |       |
+|       | an       |                 |       |       |       |       |       |
+|       | o        |                 |       |       |       |       |       |
+|       | rganism, |                 |       |       |       |       |       |
+|       | recorded |                 |       |       |       |       |       |
+|       | when the |                 |       |       |       |       |       |
+|       | animal s |                 |       |       |       |       |       |
+|       | tops     |                 |       |       |       |       |       |
+|       | re       |                 |       |       |       |       |       |
+|       | sponding |                 |       |       |       |       |       |
+|       | to       |                 |       |       |       |       |       |
+|       | stimuli  |                 |       |       |       |       |       |
++-------+----------+-----------------+-------+-------+-------+-------+-------+
+| | Te  | | Con    | | in            | 1 & 2 | C     | De    |       |       |
+|       | trol (16 |                 |       | atego | grees |       |       |
+| mper  | C) or Wa | dependent       |       | rical | C     |       |       |
+| ature |          |                 |       |       |       |       |       |
+| Tre   | rm       |                 |       |       |       |       |       |
+| atmen | (22C),   |                 |       |       |       |       |       |
+|       | acc      |                 |       |       |       |       |       |
+|       | limation |                 |       |       |       |       |       |
+|       | temp     |                 |       |       |       |       |       |
+|       | erature  |                 |       |       |       |       |       |
+|       | for each |                 |       |       |       |       |       |
+|       | t        |                 |       |       |       |       |       |
+|       | reatment |                 |       |       |       |       |       |
++-------+----------+-----------------+-------+-------+-------+-------+-------+
+| MP    | | MP: No | | in            | 1 & 2 | C     | | C   |       |       |
+| Trea  | ne or MP |                 |       | atego |       |       |       |
+| tment | : Presen | dependent       |       | rical | P, OP |       |       |
++-------+----------+-----------------+-------+-------+-------+-------+-------+
+| Tube  |          |                 |       |       |       |       |       |
++-------+----------+-----------------+-------+-------+-------+-------+-------+
+| Th    |          |                 |       |       |       |       |       |
+| ermo  |          |                 |       |       |       |       |       |
+| meter |          |                 |       |       |       |       |       |
++-------+----------+-----------------+-------+-------+-------+-------+-------+
+| Water |          |                 |       |       |       |       |       |
+| Bath  |          |                 |       |       |       |       |       |
++-------+----------+-----------------+-------+-------+-------+-------+-------+
+| Start |          |                 |       |       |       |       |       |
+| Time  |          |                 |       |       |       |       |       |
++-------+----------+-----------------+-------+-------+-------+-------+-------+
+| Ac    |          |                 |       |       |       |       |       |
+| clim  |          |                 |       |       |       |       |       |
+| ation |          |                 |       |       |       |       |       |
+| Day   |          |                 |       |       |       |       |       |
++-------+----------+-----------------+-------+-------+-------+-------+-------+
+| E     |          |                 |       |       |       |       |       |
+| xper  |          |                 |       |       |       |       |       |
+| iment |          |                 |       |       |       |       |       |
+| Date  |          |                 |       |       |       |       |       |
++-------+----------+-----------------+-------+-------+-------+-------+-------+
+| Food  |          |                 |       |       |       |       |       |
++-------+----------+-----------------+-------+-------+-------+-------+-------+
+|       |          |                 |       |       |       |       |       |
++-------+----------+-----------------+-------+-------+-------+-------+-------+
 
-| CTmax | Critical thermal maxima, the upper thermal limit of an organism, recorded when the animal stops responding to stimuli  | dependent | Question/Objective 1, 2, & 3  | Numeric | degrees C | 25C-45C | "NA" |
-| Temperature Treatment | Control (16C) or Warm (22C), acclimation temperature for each treatment | independent | Question/Objective 1,2  | categorical | degrees C |  |  |
-| MP Treatment | MP: None or MP: Present | independent | Question/Objective 1, 2, & 3  | categorical | CP, OP |  |  |
-| Tube | Tube (1-12) that is used for each animal in each CTmax assay  |  |  | categorical |  | 1-12 |  |
-| Thermometer | Thermometer that is used for recording temperature during each CTmax assay  | |  | Numeric | ID |  |  |
-| Water Bath | Water bath that is used as an environment for each CTmax assay  |  | | Numeric | ID | | |
-| Start Time | Time that the water heater is plugged in and the experiment is officially started  | independent | Questions 1 & 2 | Numeric | Military time | | |
-| Acclimation Day | Day that each dish has been acclimating, day 0 is the day that they are moved to their respective incubators for acclimation  | independent | Question/Objective 1, 2   | Numeric | Days | 0-7 | |
-| Experiment Date | Date that the experiment is conducted  |  |  | Numeric | DD/MM/YYYY | | |
-| Experimental Replicate | Replicate that the experiment is occurring  |  |  | Numeric |  | 0-5 |  |
-| Food | Type of phytoplankton used to feed copepods, as well as the amount fed and frequency of feedings | independent | Drops/cell count? | Numeric |
-
+| CTmax \| Critical thermal maxima, the upper thermal limit of an organism, recorded when the animal stops responding to stimuli \| dependent \| Question/Objective 1, 2, & 3 \| Numeric \| degrees C \| 25C-45C \| "NA" \|
+| Temperature Treatment \| Control (16C) or Warm (22C), acclimation temperature for each treatment \| independent \| Question/Objective 1,2 \| categorical \| degrees C \| \| \|
+| MP Treatment \| MP: None or MP: Present \| independent \| Question/Objective 1, 2, & 3 \| categorical \| CP, OP \| \| \|
+| Tube \| Tube (1-12) that is used for each animal in each CTmax assay \| \| \| categorical \| \| 1-12 \| \|
+| Thermometer \| Thermometer that is used for recording temperature during each CTmax assay \| \| \| Numeric \| ID \| \| \|
+| Water Bath \| Water bath that is used as an environment for each CTmax assay \| \| \| Numeric \| ID \| \| \|
+| Start Time \| Time that the water heater is plugged in and the experiment is officially started \| independent \| Questions 1 & 2 \| Numeric \| Military time \| \| \|
+| Acclimation Day \| Day that each dish has been acclimating, day 0 is the day that they are moved to their respective incubators for acclimation \| independent \| Question/Objective 1, 2 \| Numeric \| Days \| 0-7 \| \|
+| Experiment Date \| Date that the experiment is conducted \| \| \| Numeric \| DD/MM/YYYY \| \| \|
+| Experimental Replicate \| Replicate that the experiment is occurring \| \| \| Numeric \| \| 0-5 \| \|
+| Food \| Type of phytoplankton used to feed copepods, as well as the amount fed and frequency of feedings \| independent \| Drops/cell count? \| Numeric \\
 
 ## Study Design
 
-This section should provide a detailed description of the study design. In addition to protocols and methodological details, this section should include a detailed accounting of replication and sample sizes.
+This section should provide a detailed description of the study design.
+In addition to protocols and methodological details, this section should
+include a detailed accounting of replication and sample sizes.
 
+Species: Skistodiaptomus pallidus #Species Generation: F\>3 Temperature
+(Centenial park if extended lowell canal cultures would be perfect)
+Treatments: 16C (Control), 22C (Warm) MP Treatments: None, Present Trait
+Measurement: CTmax Population: *which population are we going to use:
+unknown*\
+Replicates: 3 Animals/dish = 40 Total animals needed = 100 (x/replicate)
 
-Species: Skistodiaptomus pallidus #Species 
-Generation: F>3
-Temperature Treatments: 16C (Control), 22C (Warm)
-MP Treatments: None, Present
-Trait Measurement: CTmax
-Population: *which population are we going to use: unknown*  
-Replicates: 3
-Animals/dish = 30 
-Total animals needed = 90 (x/replicate)
+1.  Animals are collected from field and brought to lab.
+2.  On setup day X adult females are selected from the lab culture and
+    are evenly split into four different dishes with XmL of DIO and
+    \~0.5mL-1.5mL C. ozolini.
+3.  By the end of setup there will be four dishes: N+C, N+W, MP+C, MP+W,
+    and each dish will have X animals. Equation used to get \#
+    animals/dish: Animals/dish = ((# of assays \* \# of tubes)/# of
+    dishes) + (0.5 \* \# of assays)
+4.  Dishes are given their respective amounts of MPs.
+5.  Each dish is placed into their respective incubators, a temperature
+    sensor is also placed in the incubators in a dish with 150mL of tap
+    water to closely monitor the internal temperatures of the incubators
+    (in the incubator there are two shelves, the temperature treatments
+    are always on the same shelf as one another but alternate every
+    replicate, also the incubator that is used as the control or the
+    warm alternates every replicate).
+6.  On day 7, 4 CTmax assays are ran using 2-3 animals from each dish in
+    each assay. Tube placements for each assay are randomized using
+    Skisto_LARA/Scripts/00_tube_assignments.R
+7.  This is replicated 3 times.
 
-1. Animals are collected from field and brought to lab.
-2. On setup day X adult females are selected from the lab culture and are evenly split into four different dishes with XmL of DIO and ~0.5mL-1.5mL C. ozolini.
-3. By the end of setup there will be four dishes: N+C, N+W, MP+C, MP+W, and each dish will have X animals.
-Equation used to get # animals/dish: 
-Animals/dish = ((# of assays * # of tubes)/# of dishes) + (0.5 * # of assays)
-4. Dishes are given their respective amounts of MPs.
-5. Each dish is placed into their respective incubators, a temperature sensor is also placed in the incubators in a dish with 150mL of tap water to closely monitor the internal temperatures of the incubators (in the incubator there are two shelves, the temperature treatments are always on the same shelf as one another but alternate every replicate, also the incubator that is used as the control or the warm alternates every replicate).
-6. On day 7, 4 CTmax assays are ran using 2-3 animals from each dish in each assay. Tube placements for each assay are randomized using Skisto_LARA/Scripts/00_tube_assignments.R
-7. This is replicated 3 times.
-
-
-
-Consider including a schematic or diagram. This could be an embedded image, or an encoded diagram (e.g. Quarto includes native support for [mermaid diagrams](https://quarto.org/docs/authoring/diagrams.html#overview)).
-
+Consider including a schematic or diagram. This could be an embedded
+image, or an encoded diagram (e.g. Quarto includes native support for
+[mermaid
+diagrams](https://quarto.org/docs/authoring/diagrams.html#overview)).
 
 ## Statistics
 
-### Data Processing 
+### Data Processing
 
-Data is processed in the controller script:
-- Pop = "thermometer" is filtered out
-- CTmax values < 34.5 are filtered out
-- acc_hours is defined
-- datetime is mutated to fit our date and time format
+Data is processed in the controller script: - Pop = "thermometer" is
+filtered out - CTmax values \< 34.5 are filtered out - acc_hours is
+defined - datetime is mutated to fit our date and time format
 
 ### Key Summary Statistics
 
-| Summary Statistic    |  Calculated For Which Groups  |
-|---------|---------|---------|---------|---------|---------|---------|---------|
-| Mean +/- Standard Deviation | CTmax for each treatment: N+C, N+W, MP+C, MP+W|
-| Coefficient of Variation | CTmax for each treatment + thermal tolerance, how it changes over the course of the experiment, how the mean of rate of acclimation is across treatments |
-
++----------------------------------------+--------------------------+
+| Summary Statistic                      | Calculated For Which     |
+|                                        | Groups                   |
++========================================+==========================+
+| Mean +/- Standard Error                | CTmax for each           |
+|                                        | treatment: N+C, N+W, M   |
+|                                        | P+C, MP+W. CTmax for     |
+|                                        | each treatment + thermal |
+|                                        | tolerance, how it        |
+|                                        | changes over the course  |
+|                                        | of the experiment, how   |
+|                                        | the mean of rate of      |
+|                                        | acclimation is a cross   |
+|                                        | treatments               |
++----------------------------------------+--------------------------+
+| (How are we going to answer these      |                          |
+| things?: Mean standard error: Think    |                          |
+| through what is needed)                |                          |
++----------------------------------------+--------------------------+
 
 ### Statistical Tests of Hypotheses
 
-Hypothesis 1: 
+Hypothesis 2:
 
-- Tests of assumptions:
+-   Tests of assumptions:
 
-- How model fit will be evaluated: Using the performance package in R
-- Post-hoc tests:
-- Caveats/Caution when interpreting results:
-- Handling missing values:
+-   How model fit will be evaluated: Using the performance package in R
 
-Hypothesis 1:
-- Tests of assumptions:
+-   Post-hoc tests:
 
-- How model fit will be evaluated: 
-Using the performance package in R
+-   Caveats/Caution when interpreting results:
 
-- Post-hoc tests: 
-The CTmax of the no-MP and MP-present groups will be compared at each acclimation temperature. Support for this hypothesis would appear as consistently higher CTmax in MP-present animals.
+-   Handling missing values:
 
+Hypothesis 1: - Tests of assumptions:
 
-- Caveats/Caution when interpreting results:
-This design is limited to two stressors, other potentially interacting factors (e.g., food availability, oxygen levels, pollutants) are not accounted for and could influence thermal tolerance in ways this experiment cannot detect.
+-   How model fit will be evaluated: Using the performance package in R
 
-- Handling missing values:
-Any missing values will not be included in final data.
+-   Post-hoc tests: The CTmax of the no-MP and MP-present groups will be
+    compared at each acclimation temperature. Support for this
+    hypothesis would appear as consistently higher CTmax in MP-present
+    animals.
 
+-   Caveats/Caution when interpreting results: This design is limited to
+    two stressors, other potentially interacting factors (e.g., food
+    availability, oxygen levels, pollutants) are not accounted for and
+    could influence thermal tolerance in ways this experiment cannot
+    detect. (specify where that might be a problem)
 
+-   Handling missing values: Any missing values will not be included in
+    final data.
+
+    Notes: Simplify: To refine we are missing the middle, what are we
+    using to do this
+
+    Post-hoc test (after the fact test): Is there a significant
+    difference between treatments (group means), Slops (acclimation)
 
 ### Alternative Approaches
 
-This section should outline potential alternative approaches that could be needed (e.g. when assumptions of planned analyses are not met).
+There are always different ways to analyze data.
+
+This section should outline potential alternative approaches that could
+be needed (e.g. when assumptions of planned analyses are not met).
 
 ## Key Figures
 
-This section is relatively speculative. It can, however, be helpful to have a section where you outline the expected tables and figures that might be important to display based on the planned questions, analyses, hypotheses, etc.
+This section is relatively speculative. It can, however, be helpful to
+have a section where you outline the expected tables and figures that
+might be important to display based on the planned questions, analyses,
+hypotheses, etc.
