@@ -45,82 +45,204 @@ rate of S. pallidus to help cope with the stress.
 
 ## Variable Descriptions
 
-+-------+----------+-----------------+-------+-------+-------+-------+-------+
-| Var   | Variable | Response or     | Rel   | Data  | Units | Exp   | How   |
-| iable | Des      | Explanatory?    | evant | Type  |       | ected | are   |
-| Name  | cription |                 | Que   |       |       | Range | zeros |
-|       |          |                 | stion |       |       |       | and   |
-|       |          |                 | or    |       |       |       | mi    |
-|       |          |                 | Obje  |       |       |       | ssing |
-|       |          |                 | ctive |       |       |       | data  |
-|       |          |                 |       |       |       |       | reco  |
-|       |          |                 |       |       |       |       | rded? |
-+=======+==========+=================+=======+=======+=======+=======+=======+
-| |     | | Criti  | | d             | 1 & 2 | Nu    | De    | 25    | |     |
-| CTmax | cal ther |                 |       | meric | grees |       |       |
-|       |          | ependent        |       |       | C     | C-45C | "NA"  |
-|       | mal      |                 |       |       |       |       |       |
-|       | maxima,  |                 |       |       |       |       |       |
-|       | the      |                 |       |       |       |       |       |
-|       | upper    |                 |       |       |       |       |       |
-|       | ther mal |                 |       |       |       |       |       |
-|       | limit of |                 |       |       |       |       |       |
-|       | an       |                 |       |       |       |       |       |
-|       | o        |                 |       |       |       |       |       |
-|       | rganism, |                 |       |       |       |       |       |
-|       | recorded |                 |       |       |       |       |       |
-|       | when the |                 |       |       |       |       |       |
-|       | animal s |                 |       |       |       |       |       |
-|       | tops     |                 |       |       |       |       |       |
-|       | re       |                 |       |       |       |       |       |
-|       | sponding |                 |       |       |       |       |       |
-|       | to       |                 |       |       |       |       |       |
-|       | stimuli  |                 |       |       |       |       |       |
-+-------+----------+-----------------+-------+-------+-------+-------+-------+
-| | Te  | | Con    | | in            | 1 & 2 | C     | De    |       |       |
-|       | trol (16 |                 |       | atego | grees |       |       |
-| mper  | C) or Wa | dependent       |       | rical | C     |       |       |
-| ature |          |                 |       |       |       |       |       |
-| Tre   | rm       |                 |       |       |       |       |       |
-| atmen | (22C),   |                 |       |       |       |       |       |
-|       | acc      |                 |       |       |       |       |       |
-|       | limation |                 |       |       |       |       |       |
-|       | temp     |                 |       |       |       |       |       |
-|       | erature  |                 |       |       |       |       |       |
-|       | for each |                 |       |       |       |       |       |
-|       | t        |                 |       |       |       |       |       |
-|       | reatment |                 |       |       |       |       |       |
-+-------+----------+-----------------+-------+-------+-------+-------+-------+
-| MP    | | MP: No | | in            | 1 & 2 | C     | | C   |       |       |
-| Trea  | ne or MP |                 |       | atego |       |       |       |
-| tment | : Presen | dependent       |       | rical | P, OP |       |       |
-+-------+----------+-----------------+-------+-------+-------+-------+-------+
-| Tube  |          |                 |       |       |       |       |       |
-+-------+----------+-----------------+-------+-------+-------+-------+-------+
-| Th    |          |                 |       |       |       |       |       |
-| ermo  |          |                 |       |       |       |       |       |
-| meter |          |                 |       |       |       |       |       |
-+-------+----------+-----------------+-------+-------+-------+-------+-------+
-| Water |          |                 |       |       |       |       |       |
-| Bath  |          |                 |       |       |       |       |       |
-+-------+----------+-----------------+-------+-------+-------+-------+-------+
-| Start |          |                 |       |       |       |       |       |
-| Time  |          |                 |       |       |       |       |       |
-+-------+----------+-----------------+-------+-------+-------+-------+-------+
-| Ac    |          |                 |       |       |       |       |       |
-| clim  |          |                 |       |       |       |       |       |
-| ation |          |                 |       |       |       |       |       |
-| Day   |          |                 |       |       |       |       |       |
-+-------+----------+-----------------+-------+-------+-------+-------+-------+
-| E     |          |                 |       |       |       |       |       |
-| xper  |          |                 |       |       |       |       |       |
-| iment |          |                 |       |       |       |       |       |
-| Date  |          |                 |       |       |       |       |       |
-+-------+----------+-----------------+-------+-------+-------+-------+-------+
-| Food  |          |                 |       |       |       |       |       |
-+-------+----------+-----------------+-------+-------+-------+-------+-------+
-|       |          |                 |       |       |       |       |       |
-+-------+----------+-----------------+-------+-------+-------+-------+-------+
++-------+-------+-------+-------+-------+-------+-------+-------+
+| Var   | Var   | Res   | Rel   | Data  | Units | Exp   | How   |
+| iable | iable | ponse | evant | Type  |       | ected | are   |
+| Name  | D     | or Ex | Que   |       |       | Range | zeros |
+|       | escri | plana | stion |       |       |       | and   |
+|       | ption | tory? | or    |       |       |       | mi    |
+|       |       |       | Obje  |       |       |       | ssing |
+|       |       |       | ctive |       |       |       | data  |
+|       |       |       |       |       |       |       | reco  |
+|       |       |       |       |       |       |       | rded? |
++=======+=======+=======+=======+=======+=======+=======+=======+
+| CTmax | Cri   | Depe  | 1 & 2 | Nu    | De    | 25    | "NA"  |
+|       | tical | ndent |       | meric | grees |       |       |
+|       | th    |       |       |       | C     | C-45C |       |
+|       | ermal |       |       |       |       |       |       |
+|       | ma    |       |       |       |       |       |       |
+|       | xima, |       |       |       |       |       |       |
+|       | the   |       |       |       |       |       |       |
+|       | upper |       |       |       |       |       |       |
+|       | th    |       |       |       |       |       |       |
+|       | ermal |       |       |       |       |       |       |
+|       | limit |       |       |       |       |       |       |
+|       | of an |       |       |       |       |       |       |
+|       | o rga |       |       |       |       |       |       |
+|       | nism, |       |       |       |       |       |       |
+|       | rec   |       |       |       |       |       |       |
+|       | orded |       |       |       |       |       |       |
+|       | when  |       |       |       |       |       |       |
+|       | the a |       |       |       |       |       |       |
+|       | nimal |       |       |       |       |       |       |
+|       | s     |       |       |       |       |       |       |
+|       | tops  |       |       |       |       |       |       |
+|       | re    |       |       |       |       |       |       |
+|       | spo   |       |       |       |       |       |       |
+|       | nding |       |       |       |       |       |       |
+|       | to st |       |       |       |       |       |       |
+|       | imuli |       |       |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| T     | Co    | I     | 1 & 2 | C     | De    |       |       |
+| emper | ntrol | ndepe |       | atego | grees |       |       |
+| ature | (16   | ndent |       | rical | C     |       |       |
+| Trea  | C) or |       |       |       |       |       |       |
+| tment | Warm  |       |       |       |       |       |       |
+|       | (     |       |       |       |       |       |       |
+|       | 22C), |       |       |       |       |       |       |
+|       | a     |       |       |       |       |       |       |
+|       | cclim |       |       |       |       |       |       |
+|       | ation |       |       |       |       |       |       |
+|       | t     |       |       |       |       |       |       |
+|       | emper |       |       |       |       |       |       |
+|       | ature |       |       |       |       |       |       |
+|       | for   |       |       |       |       |       |       |
+|       | each  |       |       |       |       |       |       |
+|       | trea  |       |       |       |       |       |       |
+|       | tment |       |       |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| MP    | MP:   | I     | 1 & 2 | C     | CP,   |       |       |
+| Trea  | None  | ndepe |       | atego | OP    |       |       |
+| tment | or    | ndent |       | rical |       |       |       |
+|       | MP:   |       |       |       |       |       |       |
+|       | Pr    |       |       |       |       |       |       |
+|       | esent |       |       |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| Tube  | Tube  | I     | 1 & 2 |       |       |       |       |
+|       | (     | ndepe |       |       |       |       |       |
+|       | 1-12) | ndent |       |       |       |       |       |
+|       | that  |       |       |       |       |       |       |
+|       | is    |       |       |       |       |       |       |
+|       | used  |       |       |       |       |       |       |
+|       | for   |       |       |       |       |       |       |
+|       | each  |       |       |       |       |       |       |
+|       | a     |       |       |       |       |       |       |
+|       | nimal |       |       |       |       |       |       |
+|       | in    |       |       |       |       |       |       |
+|       | each  |       |       |       |       |       |       |
+|       | CTmax |       |       |       |       |       |       |
+|       | assay |       |       |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| T     | T     | I     | 1 & 2 |       |       |       |       |
+| hermo | hermo | ndepe |       |       |       |       |       |
+| meter | meter | ndent |       |       |       |       |       |
+|       | that  |       |       |       |       |       |       |
+|       | is    |       |       |       |       |       |       |
+|       | used  |       |       |       |       |       |       |
+|       | for   |       |       |       |       |       |       |
+|       | reco  |       |       |       |       |       |       |
+|       | rding |       |       |       |       |       |       |
+|       | t     |       |       |       |       |       |       |
+|       | emper |       |       |       |       |       |       |
+|       | ature |       |       |       |       |       |       |
+|       | d     |       |       |       |       |       |       |
+|       | uring |       |       |       |       |       |       |
+|       | each  |       |       |       |       |       |       |
+|       | CTmax |       |       |       |       |       |       |
+|       | assay |       |       |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| Water | Water | Depe  | 1 & 2 |       |       |       |       |
+| Bath  | bath  | ndent |       |       |       |       |       |
+|       | that  |       |       |       |       |       |       |
+|       | is    |       |       |       |       |       |       |
+|       | used  |       |       |       |       |       |       |
+|       | as an |       |       |       |       |       |       |
+|       | e     |       |       |       |       |       |       |
+|       | nviro |       |       |       |       |       |       |
+|       | nment |       |       |       |       |       |       |
+|       | for   |       |       |       |       |       |       |
+|       | each  |       |       |       |       |       |       |
+|       | CTmax |       |       |       |       |       |       |
+|       | assay |       |       |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| Start | Time  | I     | 1 & 2 |       |       |       |       |
+| Time  | that  | ndepe |       |       |       |       |       |
+|       | the   | ndent |       |       |       |       |       |
+|       | water |       |       |       |       |       |       |
+|       | h     |       |       |       |       |       |       |
+|       | eater |       |       |       |       |       |       |
+|       | is pl |       |       |       |       |       |       |
+|       | ugged |       |       |       |       |       |       |
+|       | in    |       |       |       |       |       |       |
+|       | and   |       |       |       |       |       |       |
+|       | the   |       |       |       |       |       |       |
+|       | exper |       |       |       |       |       |       |
+|       | iment |       |       |       |       |       |       |
+|       | is    |       |       |       |       |       |       |
+|       | offic |       |       |       |       |       |       |
+|       | ially |       |       |       |       |       |       |
+|       | st    |       |       |       |       |       |       |
+|       | arted |       |       |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| A     | Day   | I     | 1 & 2 |       |       |       |       |
+| cclim | that  | ndepe |       |       |       |       |       |
+| ation | each  | ndent |       |       |       |       |       |
+| Day   | dish  |       |       |       |       |       |       |
+|       | has   |       |       |       |       |       |       |
+|       | been  |       |       |       |       |       |       |
+|       | ac    |       |       |       |       |       |       |
+|       | clima |       |       |       |       |       |       |
+|       | ting, |       |       |       |       |       |       |
+|       | day 0 |       |       |       |       |       |       |
+|       | is    |       |       |       |       |       |       |
+|       | the   |       |       |       |       |       |       |
+|       | day   |       |       |       |       |       |       |
+|       | that  |       |       |       |       |       |       |
+|       | they  |       |       |       |       |       |       |
+|       | are   |       |       |       |       |       |       |
+|       | moved |       |       |       |       |       |       |
+|       | to    |       |       |       |       |       |       |
+|       | their |       |       |       |       |       |       |
+|       | respe |       |       |       |       |       |       |
+|       | ctive |       |       |       |       |       |       |
+|       | incub |       |       |       |       |       |       |
+|       | ators |       |       |       |       |       |       |
+|       | for a |       |       |       |       |       |       |
+|       | cclim |       |       |       |       |       |       |
+|       | ation |       |       |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| Exper | Date  | I     | 1 & 2 |       |       |       |       |
+| iment | that  | ndepe |       |       |       |       |       |
+| Date  | the   | ndent |       |       |       |       |       |
+|       | exper |       |       |       |       |       |       |
+|       | iment |       |       |       |       |       |       |
+|       | is    |       |       |       |       |       |       |
+|       | cond  |       |       |       |       |       |       |
+|       | ucted |       |       |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| Food  | Type  | Depe  | 1 & 2 |       |       |       |       |
+|       | of    | ndent |       |       |       |       |       |
+|       | phy   |       |       |       |       |       |       |
+|       | topla |       |       |       |       |       |       |
+|       | nkton |       |       |       |       |       |       |
+|       | used  |       |       |       |       |       |       |
+|       | to    |       |       |       |       |       |       |
+|       | feed  |       |       |       |       |       |       |
+|       | cope  |       |       |       |       |       |       |
+|       | pods, |       |       |       |       |       |       |
+|       | as    |       |       |       |       |       |       |
+|       | well  |       |       |       |       |       |       |
+|       | as    |       |       |       |       |       |       |
+|       | the a |       |       |       |       |       |       |
+|       | mount |       |       |       |       |       |       |
+|       | fed   |       |       |       |       |       |       |
+|       | and   |       |       |       |       |       |       |
+|       | freq  |       |       |       |       |       |       |
+|       | uency |       |       |       |       |       |       |
+|       | of    |       |       |       |       |       |       |
+|       | fee   |       |       |       |       |       |       |
+|       | dings |       |       |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
+| | E   | Repl  | Depe  | 1 & 2 |       |       |       |       |
+|       | icate | ndent |       |       |       |       |       |
+| xperi | that  |       |       |       |       |       |       |
+|       | the   |       |       |       |       |       |       |
+| m     | exper |       |       |       |       |       |       |
+| ental | iment |       |       |       |       |       |       |
+| Repl  | is    |       |       |       |       |       |       |
+| icate | occu  |       |       |       |       |       |       |
+|       | rring |       |       |       |       |       |       |
++-------+-------+-------+-------+-------+-------+-------+-------+
 
 | CTmax \| Critical thermal maxima, the upper thermal limit of an organism, recorded when the animal stops responding to stimuli \| dependent \| Question/Objective 1, 2, & 3 \| Numeric \| degrees C \| 25C-45C \| "NA" \|
 | Temperature Treatment \| Control (16C) or Warm (22C), acclimation temperature for each treatment \| independent \| Question/Objective 1,2 \| categorical \| degrees C \| \| \|
@@ -141,10 +263,8 @@ In addition to protocols and methodological details, this section should
 include a detailed accounting of replication and sample sizes.
 
 Species: Skistodiaptomus pallidus #Species Generation: F\>3 Temperature
-(Centenial park if extended lowell canal cultures would be perfect)
 Treatments: 16C (Control), 22C (Warm) MP Treatments: None, Present Trait
-Measurement: CTmax Population: *which population are we going to use:
-unknown*\
+Measurement: CTmax Population: Centennial park\
 Replicates: 3 Animals/dish = 40 Total animals needed = 100 (x/replicate)
 
 1.  Animals are collected from field and brought to lab.
@@ -183,63 +303,54 @@ defined - datetime is mutated to fit our date and time format
 
 ### Key Summary Statistics
 
-+----------------------------------------+--------------------------+
-| Summary Statistic                      | Calculated For Which     |
-|                                        | Groups                   |
-+========================================+==========================+
-| Mean +/- Standard Error                | CTmax for each           |
-|                                        | treatment: N+C, N+W, M   |
-|                                        | P+C, MP+W. CTmax for     |
-|                                        | each treatment + thermal |
-|                                        | tolerance, how it        |
-|                                        | changes over the course  |
-|                                        | of the experiment, how   |
-|                                        | the mean of rate of      |
-|                                        | acclimation is a cross   |
-|                                        | treatments               |
-+----------------------------------------+--------------------------+
-| (How are we going to answer these      |                          |
-| things?: Mean standard error: Think    |                          |
-| through what is needed)                |                          |
-+----------------------------------------+--------------------------+
+| Summary Statistic | Calculated For Which Groups |
+|----|----|
+| Mean +/- Standard Error | CTmax for each treatment: N+C, N+W, M P+C, MP+W. CTmax for each treatment + thermal tolerance, how it changes over the course of the experiment, how the mean of rate of acclimation is a cross treatments |
 
 ### Statistical Tests of Hypotheses
-
-Hypothesis 2:
-
--   Tests of assumptions:
-
--   How model fit will be evaluated: Using the performance package in R
-
--   Post-hoc tests:
-
--   Caveats/Caution when interpreting results:
-
--   Handling missing values:
 
 Hypothesis 1: - Tests of assumptions:
 
 -   How model fit will be evaluated: Using the performance package in R
 
--   Post-hoc tests: The CTmax of the no-MP and MP-present groups will be
-    compared at each acclimation temperature. Support for this
-    hypothesis would appear as consistently higher CTmax in MP-present
-    animals.
+-   Post-hoc tests: Comparisons of mean CTmax will be conducted between
+    MP-present and MP-absent treatments within each acclimation
+    temperature (i.e., N+C vs. MP+C; N+W vs. MP+W).
 
--   Caveats/Caution when interpreting results: This design is limited to
-    two stressors, other potentially interacting factors (e.g., food
-    availability, oxygen levels, pollutants) are not accounted for and
-    could influence thermal tolerance in ways this experiment cannot
-    detect. (specify where that might be a problem)
+-   Caveats/Caution when interpreting results: Moving animals between
+    dishes/tubes on setup day and assay day could stress them slightly,
+    which may lower or raise their measured CTmax independent of MP
+    exposure. (Not likely)
 
--   Handling missing values: Any missing values will not be included in
-    final data.
+-   Handling missing values: Missing values will be excluded from
+    analysis, this hypothesis relies on comparisons across the
+    acclimation period.
 
     Notes: Simplify: To refine we are missing the middle, what are we
     using to do this
 
     Post-hoc test (after the fact test): Is there a significant
     difference between treatments (group means), Slops (acclimation)
+
+-   Hypothesis 2:
+
+    -   Tests of assumptions:
+
+    -   How model fit will be evaluated: Using the performance package
+        in R
+
+    -   Post-hoc tests: Comparing the change in CTmax across the
+        acclimation period between MP-present and MP-absent animals
+        within the warm (22°C) treatment (i.e., N+W vs. MP+W)
+
+    -   Caveats/Caution when interpreting results: Moving animals
+        between dishes/tubes on setup day and assay day could stress
+        them slightly, which may lower or raise their measured CTmax
+        independent of MP exposure.
+
+    -   Handling missing values: Missing values will be excluded from
+        analysis, this hypothesis relies on comparisons across the
+        acclimation period.
 
 ### Alternative Approaches
 
