@@ -216,9 +216,9 @@ Hypotheses:
 |       |        |         |       |        |       | M     | ssing v |
 |       |        |         |       |        |       | /YYYY | alues   |
 +-------+--------+---------+-------+--------+-------+-------+---------+
-| Food  | |      | Ind e   | 1 & 2 | Categ  | Drop  |       | There s |
-|       |        | pe n    |       | orical | s /   |       | hould   |
-|       | Type   | dent    |       |        | cell  |       | be no   |
+| Food  | |      | Inde    | 1 & 2 | Categ  | Drop  |       | There s |
+|       |        | pendent |       | orical | s /   |       | hould   |
+|       | Type   |         |       |        | cell  |       | be no   |
 |       |        |         |       |        | c o   |       | mi      |
 |       | of phy |         |       |        | unt?  |       | ssing v |
 |       | to     |         |       |        |       |       | alues   |
@@ -342,8 +342,9 @@ defined by combining Temperature Treatment and Microplastic Treatment
 +-----------------------------------------+------------------------+
 | Summary Statistic                       | Calculated For Which   |
 |                                         | Groups                 |
-| ================================= Mean  | ====================   |
-| +/- Standard Error                      | CTmax for each         |
+| =================================       | ====================   |
+|                                         |                        |
+| Mean +/- Standard Error                 | CTmax for each         |
 |                                         | treatment: N+C, N+W, M |
 |                                         | P+C, MP+W. CTmax for   |
 |                                         | each treatment +       |
