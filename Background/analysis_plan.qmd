@@ -358,9 +358,6 @@ defined by combining Temperature Treatment and Microplastic Treatment
 
 ### Statistical Tests of Hypotheses
 
-**Comment: You might also need to describe the statistical model for the
-first hypothesis.**
-
 Hypothesis 1:
 
 -   Tests of assumptions: Exposure to end-of-century concentrations of
