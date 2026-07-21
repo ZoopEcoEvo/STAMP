@@ -15,27 +15,17 @@ editor:
     wrap: 72
 ---
 
-**General Comment: The formatting of the document is messy throughout,
-seems like two version may have been merged? In any case, make sure to
-render the document and check to make sure things are tidy and all the.
-information is complete.**
-
 ## Project Description
 
-This experiment examines how exposure to microplastics levels predicted
-for end-of-century conditions affects the thermal tolerance (Critical
+This experiment examines how exposure to microplastics levels affect the thermal tolerance (Critical
 Thermal Maximum; CTmax) and acclimation capacity of Skistodiaptomus
 pallidus (S. pallidus) under ambient and elevated temperature
-conditions relevant to end-of-century heatwave predictions.
-
-**Comment: Try to simplify the framing above. There's some redundancy
-(e.g. "end-of-century"). Try to boil the main goals of the project down
-to a couple simple sentences.**
+conditions relevant to heatwave predictions.
 
 We will use a factorial design and a one week treatment period, with
 groups exposed to control conditions (16°C, No microplastics), a microplastics
 treatment (16°C with microplastics), a heatwave treatment (22°C and no microplastics), and a
-combined treatment with both microplastics and heatwave conditions.
+combined treatment with both microplasti4cs and heatwave conditions.
 Results will improve our understanding of copepod resilience in a
 warming, plastic-polluted world by XYZ.
 
@@ -44,9 +34,9 @@ warming, plastic-polluted world by XYZ.
 Questions:
 
 1.  How does exposure to end-of-century concentrations of MPs affect the
-    thermal tolerance of *S. pallidus*?
+    thermal tolerance of S. pallidus?
 
-2.  Do MPs affect *S. pallidus* ability to acclimate to end-of-century
+2.  Do MPs affect S. pallidus ability to acclimate to end-of-century
     heatwave temperatures?
 
 Hypotheses:
@@ -55,7 +45,7 @@ Hypotheses:
     increase in thermal tolerance because of stress pathways are
     activated by the MPs, priming organisms to respond to thermal
     stress.
-2.  MPs will increase *S. pallidus*'s acclimation ability to
+2.  MPs will increase S. pallidus's acclimation ability to
     end-of-century heatwave temperatures.
 
 ## Variable Descriptions
