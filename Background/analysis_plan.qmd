@@ -221,11 +221,17 @@ of microplastics (Undecided)**
 
 Trait Measurement: CTmax
 
-Animals/dish: 14 (per equation: Animals/dish = ((# assays × \# tubes)/#
+Animals/dish: 11 (per equation: Animals/dish = ((# assays × \# tubes)/#
 dishes) + (0.5 × \# assays))
 
 Dishes per treatment per replicate: 1 (4 dishes total: N+C, N+W, MP+C,
 MP+W)
+
+For initial CTmax (First experimental replicate):
+
+-   Total animals:
+
+-   Per treatment:
 
 Total animals needed per experimental replicate: 56
 
@@ -234,9 +240,9 @@ assays)
 
 Experimental replicates: 3
 
-Total CTmax measurements per treatment (across study): 36
+Total CTmax measurements per treatment (across study):
 
-Total animals needed (across study): 168
+Total animals needed (across study): 144
 
 1.  Animals are collected from field and brought to lab.
 2.  On setup day X adult females are selected from the lab culture and
