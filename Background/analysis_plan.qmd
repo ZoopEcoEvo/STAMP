@@ -30,8 +30,8 @@ groups exposed to control conditions (16°C, No microplastics), a
 microplastics treatment (16°C with microplastics), a heatwave treatment
 (22°C and no microplastics), and a combined treatment with both
 microplastics and heatwave conditions. Results will improve our
-understanding of copepod resilience in a warming, plastic-polluted world
-by XYZ.
+understanding of copepod resilience in a warming, plastic-polluted
+world.
 
 ## Questions, Objectives, Hypotheses
 
@@ -216,8 +216,7 @@ Generation: F\>3
 
 Treatments: 16C (Control), 22C (Heatwave)
 
-MP Treatments: None, Present **Comment: We need a target concentration
-of microplastics (Undecided)**
+MP Treatments: 1 microliter per 100 mL of DIO water
 
 Trait Measurement: CTmax
 
@@ -229,20 +228,22 @@ MP+W)
 
 For initial CTmax (First experimental replicate):
 
--   Total animals:
+-   Total animals: 56
 
--   Per treatment:
+-   Per treatment: 14
 
-Total animals needed per experimental replicate: 56
+    ##This changed because we couldn't gather enough copepods.
+
+Total animals needed per experimental replicate: 44
 
 CTmax measurements per treatment per replicate: 12 (3 animals × 4
 assays)
 
 Experimental replicates: 3
 
-Total CTmax measurements per treatment (across study):
+Total CTmax measurements per treatment (across study): 36
 
-Total animals needed (across study): 144
+Total animals needed (across study): 132
 
 1.  Animals are collected from field and brought to lab.
 2.  On setup day X adult females are selected from the lab culture and
@@ -252,7 +253,7 @@ Total animals needed (across study): 144
     and each dish will have X animals. Equation used to get \#
     animals/dish: Animals/dish = ((# of assays \* \# of tubes)/# of
     dishes) + (0.5 \* \# of assays) **Comment: Initial CTmax
-    measurements?**
+    measurements? (Where would this fit in here)**
 4.  Dishes are given their respective amounts of MPs.
 5.  Each dish is placed into their respective incubators, a temperature
     sensor is also placed in the incubators in a dish with 150mL of tap
