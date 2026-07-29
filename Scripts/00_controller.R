@@ -3,9 +3,29 @@ library(rmarkdown)
 library(tidyverse)
 
 #Determine which scripts should be run
+setup_experiment = T
 process_data = F #Runs data analysis 
 make_report = F #Runs project summary
 knit_manuscript = F #Compiles manuscript draft
+
+
+if(setup_experiment == T){
+
+  ### THINGS YOU NEED TO CHANGE
+  # 1 - the number of tubes used ( = number of samples + 1 for the thermometer)
+  ### NOTE: FOR NOW THIS MUST BE AN ODD NUMBER
+  num_tubes = 9 
+  
+  # 2 - the treatments involved in the assay (add or remove as needed)
+  treatments = c("control", "microplastics", "warming", "combined")
+  
+  # 3 - set the assay number (start with 1 and increase as you go)
+  ### Be sure to double check what the previous assay number was to avoid overwriting any data!
+  assay_num = 2
+  
+  source(file = "Scripts/tube_assignments.R")
+}
+
 
 ############################
 ### Read in the RAW data ###
