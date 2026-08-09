@@ -41,9 +41,9 @@ theme_matt = function(base_size = 18,
       axis.text = element_text(size = base_size,
                                colour = mid_text),
       axis.title.x = element_text(size = base_size * 1.2,
-                                  margin = unit(c(3, 0, 0, 0), "mm")),
+                                  margin = margin(3, 0, 0, 0, "mm")),
       axis.title.y = element_text(size = base_size * 1.2,
-                                  margin = unit(c(0, 5, 0, 0), "mm"), 
+                                  margin = margin(0, 5, 0, 0, "mm"), 
                                   angle = 90),
       legend.text = element_text(size=base_size * 0.9),
       legend.title = element_text(size = base_size * 0.9, 
@@ -71,9 +71,9 @@ theme_matt_facets = function(base_size = 18,
       axis.text = element_text(size = base_size,
                                colour = mid_text),
       axis.title.x = element_text(size = base_size * 1.2,
-                                  margin = unit(c(3, 0, 0, 0), "mm")),
+                                  margin = margin(3, 0, 0, 0, "mm")),
       axis.title.y = element_text(size = base_size * 1.2,
-                                  margin = unit(c(0, 5, 0, 0), "mm"), 
+                                  margin = margin(0, 5, 0, 0, "mm"), 
                                   angle = 90),
       legend.text = element_text(size=base_size * 0.9),
       legend.title = element_text(size = base_size * 0.9, 
@@ -82,3 +82,36 @@ theme_matt_facets = function(base_size = 18,
     )
 }
 ```
+
+## Initial Replicate
+This replicate used the lab culture from Centennial Park, collected during Summer 2025. 
+
+```{r ctmax-boxplots, fig.width=8, fig.height=8}
+
+ctmax_data %>% 
+  drop_na() %>% 
+  ggplot(aes(x = treatment, y = ctmax)) + 
+  geom_boxplot() +
+  geom_point() + 
+  ylim(35.5,37.5) + 
+  labs(x = "Treatment", 
+       y = "CTmax (°C)") + 
+  theme_matt()
+
+```
+
+```{r}
+
+ctmax.model = lmer(data = ctmax_data, 
+                   ctmax ~ treatment + (1|assay) + (1|tube))
+
+#performance::check_model(ctmax.model)
+
+summary(ctmax.model)
+
+car::Anova(ctmax.model)
+
+
+```
+
+
