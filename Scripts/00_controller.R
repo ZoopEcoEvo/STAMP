@@ -1,6 +1,8 @@
 # Load in required packages
 library(rmarkdown)
 library(tidyverse)
+library(lme4)
+library(lmerTest)
 
 #Determine which scripts should be run
 setup_experiment = T
@@ -38,6 +40,11 @@ if(process_data == T){
 ##################################
 ### Read in the PROCESSED data ###
 ##################################
+
+ctmax_data = read.csv(file = "Raw_data/temp_data.csv") %>% 
+  janitor::clean_names() %>% 
+  mutate(treatment = fct_relevel(treatment, "Control", "Microplastics", "Heatwave", "Combined"))
+
 
 if(make_report == T){
   render(input = "Output/Reports/report.Rmd", #Input the path to your .Rmd file here
