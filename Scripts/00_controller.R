@@ -23,7 +23,7 @@ if(setup_experiment == T){
   
   # 3 - set the assay number (start with 1 and increase as you go)
   ### Be sure to double check what the previous assay number was to avoid overwriting any data!
-  assay_num = 2
+  assay_num = 1
   
   source(file = "Scripts/tube_assignments.R")
 }
