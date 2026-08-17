@@ -86,9 +86,9 @@ theme_matt_facets = function(base_size = 18,
 ## Initial Replicate
 This replicate used the lab culture from Centennial Park, collected during Summer 2025. 
 
-```{r ctmax-boxplots, fig.width=8, fig.height=8}
+```{r prelim-boxplots, fig.width=8, fig.height=8}
 
-ctmax_data %>% 
+prelim_data %>% 
   drop_na() %>% 
   ggplot(aes(x = treatment, y = ctmax)) + 
   geom_boxplot() +
@@ -100,18 +100,17 @@ ctmax_data %>%
 
 ```
 
-```{r}
+## Experimental Data
 
-ctmax.model = lmer(data = ctmax_data, 
-                   ctmax ~ treatment + (1|assay) + (1|tube))
+```{r ctmax-boxplots, fig.width=8, fig.height=8}
 
-#performance::check_model(ctmax.model)
-
-summary(ctmax.model)
-
-car::Anova(ctmax.model)
-
+ctmax_data %>% 
+  ggplot(aes(x = treatment, y = ctmax)) + 
+  geom_boxplot() +
+  geom_point() + 
+  labs(x = "Treatment", 
+       y = "CTmax (°C)") + 
+  theme_matt()
 
 ```
-
 

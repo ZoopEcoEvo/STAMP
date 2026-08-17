@@ -41,10 +41,20 @@ if(process_data == T){
 ### Read in the PROCESSED data ###
 ##################################
 
-ctmax_data = read.csv(file = "Raw_data/temp_data.csv") %>% 
+prelim_data = read.csv(file = "Raw_data/temp_data.csv") %>% 
   janitor::clean_names() %>% 
   mutate(treatment = fct_relevel(treatment, "Control", "Microplastics", "Heatwave", "Combined"))
 
+ctmax_data = readr::read_csv(list.files(path = "Raw_data/ctmax_data", 
+                                        pattern = "*.csv", 
+                                        full.names = TRUE),
+                             show_col_types = FALSE, 
+                             skip_empty_rows = T) %>% 
+  janitor::clean_names() %>% 
+  mutate(treatment = fct_relevel(treatment, "control", "microplastics", "warming", "combined")) %>% 
+  filter(treatment != "thermometer") %>% 
+  drop_na(ctmax) %>% 
+  filter(ctmax > 35)
 
 if(make_report == T){
   render(input = "Output/Reports/report.Rmd", #Input the path to your .Rmd file here
