@@ -3,6 +3,7 @@ library(rmarkdown)
 library(tidyverse)
 library(lme4)
 library(lmerTest)
+library(emmeans)
 
 #Determine which scripts should be run
 setup_experiment = T
