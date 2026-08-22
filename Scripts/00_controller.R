@@ -57,6 +57,8 @@ ctmax_data = readr::read_csv(list.files(path = "Raw_data/ctmax_data",
   drop_na(ctmax) %>% 
   filter(ctmax > 35)
 
+write.csv(ctmax_data, "Output/Output_data/ctmax_data.csv", row.names = F)
+
 if(make_report == T){
   render(input = "Output/Reports/report.Rmd", #Input the path to your .Rmd file here
          #output_file = "report", #Name your file here if you want it to have a different name; leave off the .html, .md, etc. - it will add the correct one automatically

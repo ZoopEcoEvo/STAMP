@@ -1,0 +1,25 @@
+"exp_rep","assay_num","exp_date","acc_day","start_time","water_bath","thermometer","tube","pop","treatment","ctmax","length","notes"
+2,5,"8/10/26",7,07:00:00,1,4,1,"CP","combined",39.1,NA,NA
+2,5,"8/10/26",7,07:00:00,1,4,2,"CP","control",37.8,NA,NA
+2,5,"8/10/26",7,07:00:00,1,4,3,"CP","combined",39,NA,NA
+2,5,"8/10/26",7,07:00:00,1,4,4,"CP","warming",38.4,NA,NA
+2,5,"8/10/26",7,07:00:00,1,4,5,"CP","control",37.1,NA,NA
+2,5,"8/10/26",7,07:00:00,1,4,8,"CP","microplastics",38.7,NA,NA
+2,5,"8/10/26",7,07:00:00,1,4,9,"CP","microplastics",37.3,NA,NA
+2,6,"8/10/26",7,07:00:00,2,5,1,"CP","combined",38.9,NA,NA
+2,6,"8/10/26",7,07:00:00,2,5,2,"CP","combined",39,NA,NA
+2,6,"8/10/26",7,07:00:00,2,5,3,"CP","warming",38.5,NA,NA
+2,6,"8/10/26",7,07:00:00,2,5,4,"CP","control",36.7,NA,NA
+2,6,"8/10/26",7,07:00:00,2,5,6,"CP","microplastics",37.2,NA,NA
+2,6,"8/10/26",7,07:00:00,2,5,7,"CP","microplastics",38,NA,NA
+2,6,"8/10/26",7,07:00:00,2,5,8,"CP","control",36.8,NA,NA
+2,6,"8/10/26",7,07:00:00,2,5,9,"CP","warming",38.9,NA,NA
+2,7,"8/10/26",7,10:30:00,1,4,1,"CP","warming",39.2,NA,NA
+2,7,"8/10/26",7,10:30:00,1,4,2,"CP","control",38.5,NA,NA
+2,7,"8/10/26",7,10:30:00,1,4,5,"CP","warming",38.6,NA,NA
+2,7,"8/10/26",7,10:30:00,1,4,6,"CP","combined",38.6,NA,NA
+2,7,"8/10/26",7,10:30:00,1,4,7,"CP","microplastics",36,NA,NA
+2,7,"8/10/26",7,10:30:00,1,4,8,"CP","combined",39.3,NA,NA
+2,4,"8/10/26",7,10:30:00,2,5,1,"CP","microplastics",37.3,NA,NA
+2,4,"8/10/26",7,10:30:00,2,5,4,"CP","control",38.7,NA,"There was only 1 control copepod left so I used it for assay 7"
+2,4,"8/10/26",7,10:30:00,2,5,5,"CP","microplastics",38.7,NA,NA
