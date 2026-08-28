@@ -55,20 +55,19 @@ Hypotheses:
 ## Variable Descriptions
 
 +-------+-------+-------+-------+-------+-------+-------+-------+
-| V     | Var   | R     | Rel   | Data  | Units | Ex    | How   |
-| ar    | iable | es    | evant | Type  |       | pec   | are   |
-| iable | Des   | ponse | Que   |       |       | ted   | zeros |
-| Name  | cri   | or    | stion |       |       | Ra    | and   |
-|       | ption | Expl  | or    |       |       | nge   | mi    |
-|       |       | an    | Obje  |       |       |       | ssing |
-|       |       | atory | ctive |       |       |       | data  |
-|       |       |       |       |       |       |       | re    |
-|       |       |       |       |       |       |       | co    |
+| V ar  | Var   | R es  | Rel   | Data  | Units | Ex    | How   |
+| iable | iable | ponse | evant | Type  |       | pec   | are   |
+| Name  | Des   | or    | Que   |       |       | ted   | zeros |
+|       | cri   | Expl  | stion |       |       | Ra    | and   |
+|       | ption | an    | or    |       |       | nge   | mi    |
+|       |       | atory | Obje  |       |       |       | ssing |
+|       |       |       | ctive |       |       |       | data  |
+|       |       |       |       |       |       |       | re co |
 |       |       |       |       |       |       |       | rded? |
 +=======+=======+=======+=======+=======+=======+=======+=======+
-| |     | Cri   | De    | 1 & 2 | N     | De    | 25 °  | NA    |
-|       | tical | pe    |       | u     | grees | C - 4 |       |
-| CT    | th    | ndent |       | meric | C     | 5°C   |       |
+| |     | Cri   | De pe | 1 & 2 | N u   | De    | 25 °  | NA    |
+|       | tical | ndent |       | meric | grees | C - 4 |       |
+| CT    | th    |       |       |       | C     | 5°C   |       |
 | max   | ermal |       |       |       |       |       |       |
 |       | ma    |       |       |       |       |       |       |
 |       | xima, |       |       |       |       |       |       |
@@ -78,8 +77,7 @@ Hypotheses:
 |       | ermal |       |       |       |       |       |       |
 |       | limit |       |       |       |       |       |       |
 |       | of an |       |       |       |       |       |       |
-|       | o     |       |       |       |       |       |       |
-|       | rga   |       |       |       |       |       |       |
+|       | o rga |       |       |       |       |       |       |
 |       | nism, |       |       |       |       |       |       |
 |       | rec   |       |       |       |       |       |       |
 |       | orded |       |       |       |       |       |       |
@@ -91,16 +89,15 @@ Hypotheses:
 |       | re    |       |       |       |       |       |       |
 |       | spo   |       |       |       |       |       |       |
 |       | nding |       |       |       |       |       |       |
-|       | to    |       |       |       |       |       |       |
-|       | st    |       |       |       |       |       |       |
+|       | to st |       |       |       |       |       |       |
 |       | imuli |       |       |       |       |       |       |
 +-------+-------+-------+-------+-------+-------+-------+-------+
 | Temp  | Co    | Inde  | 1 & 2 | Categ | De    | 16° C | There |
 | er    | ntrol | pe    |       | o     | grees | -2    | s     |
 | ature | ( 1   | ndent |       | rical | C     | 2°C   | hould |
-| Tr    | 6C)   |       |       |       |       |       | be no |
-| ea    | or    |       |       |       |       |       | mi    |
-| tment | Hea   |       |       |       |       |       | ssing |
+| Tr ea | 6C)   |       |       |       |       |       | be no |
+| tment | or    |       |       |       |       |       | mi    |
+|       | Hea   |       |       |       |       |       | ssing |
 |       | twave |       |       |       |       |       | v     |
 |       | ( 2 2 |       |       |       |       |       | alues |
 |       | C),   |       |       |       |       |       |       |
@@ -119,9 +116,9 @@ Hypotheses:
 | icrop | or MP | pe    |       | o     |       |    \* | s     |
 | la    |       | ndent |       | rical |       |       | hould |
 | stics | (     |       |       |       |       | Put   | be no |
-| Tr    | Given |       |       |       |       |       | mi    |
-| ea    | th    |       |       |       |       | the   | ssing |
-| tment | rough |       |       |       |       |       | v     |
+| Tr ea | Given |       |       |       |       |       | mi    |
+| tment | th    |       |       |       |       | the   | ssing |
+|       | rough |       |       |       |       |       | v     |
 |       | food) |       |       |       |       | v     | alues |
 |       |       |       |       |       |       |       |       |
 |       |       |       |       |       |       | a     |       |
@@ -151,18 +148,18 @@ Hypotheses:
 |       | CTmax |       |       |       |       |       |       |
 |       | assay |       |       |       |       |       |       |
 +-------+-------+-------+-------+-------+-------+-------+-------+
-| Ther  |       | Inde  | 1 & 2 | N     | N     | 1 -12 | There |
-| mo    |       | pe    |       | u     | umber |       | s     |
-| meter |       | ndent |       | meric |       |       | hould |
+| Ther  |       | Inde  | 1 & 2 | N u   | N     | 1 -12 | There |
+| mo    |       | pe    |       | meric | umber |       | s     |
+| meter |       | ndent |       |       |       |       | hould |
 |       |       |       |       |       |       |       | be no |
 |       |       |       |       |       |       |       | mi    |
 |       |       |       |       |       |       |       | ssing |
 |       |       |       |       |       |       |       | v     |
 |       |       |       |       |       |       |       | alues |
 +-------+-------+-------+-------+-------+-------+-------+-------+
-| Water | | W   | Inde  | 1 & 2 | N     | N     | 1-2   | There |
-| Bath  |       | pe    |       | u     | umber |       | s     |
-|       | ater  | ndent |       | meric |       |       | hould |
+| Water | | W   | Inde  | 1 & 2 | N u   | N     | 1-2   | There |
+| Bath  |       | pe    |       | meric | umber |       | s     |
+|       | ater  | ndent |       |       |       |       | hould |
 |       | ba th |       |       |       |       |       | be no |
 |       | that  |       |       |       |       |       | mi    |
 |       | is    |       |       |       |       |       | ssing |
@@ -177,18 +174,18 @@ Hypotheses:
 |       | CTmax |       |       |       |       |       |       |
 |       | assay |       |       |       |       |       |       |
 +-------+-------+-------+-------+-------+-------+-------+-------+
-| Start |       | Inde  | 1 & 2 | N     | Time  | Ho    | There |
-| Time  |       | pe    |       | u     |       | ur:   | s     |
-|       |       | ndent |       | meric |       | min   | hould |
+| Start |       | Inde  | 1 & 2 | N u   | Time  | Ho    | There |
+| Time  |       | pe    |       | meric |       | ur:   | s     |
+|       |       | ndent |       |       |       | min   | hould |
 |       |       |       |       |       |       | ute   | be no |
 |       |       |       |       |       |       |       | mi    |
 |       |       |       |       |       |       |       | ssing |
 |       |       |       |       |       |       |       | v     |
 |       |       |       |       |       |       |       | alues |
 +-------+-------+-------+-------+-------+-------+-------+-------+
-| Accl  | Day   | Inde  | 1 & 2 | N     | Days  | 0-7   | There |
-| im    | that  | pe    |       | u     |       |       | s     |
-| ation | each  | ndent |       | meric |       |       | hould |
+| Accl  | Day   | Inde  | 1 & 2 | N u   | Days  | 0-7   | There |
+| im    | that  | pe    |       | meric |       |       | s     |
+| ation | each  | ndent |       |       |       |       | hould |
 | Day   | dish  |       |       |       |       |       | be no |
 |       | has   |       |       |       |       |       | mi    |
 |       | been  |       |       |       |       |       | ssing |
@@ -216,9 +213,9 @@ Hypotheses:
 |       | lim   |       |       |       |       |       |       |
 |       | ation |       |       |       |       |       |       |
 +-------+-------+-------+-------+-------+-------+-------+-------+
-| Exp   | Date  | Inde  | 1 & 2 | N     | Day   | D D/M | There |
-| er    | that  | pe    |       | u     |       | M/Y   | s     |
-| iment | the   | ndent |       | meric |       | YYY   | hould |
+| Exp   | Date  | Inde  | 1 & 2 | N u   | Day   | D D/M | There |
+| er    | that  | pe    |       | meric |       | M/Y   | s     |
+| iment | the   | ndent |       |       |       | YYY   | hould |
 | Date  | ex    |       |       |       |       |       | be no |
 |       | per   |       |       |       |       |       | mi    |
 |       | iment |       |       |       |       |       | ssing |
@@ -234,8 +231,7 @@ Hypotheses:
 |       | used  |       |       |       |       |       | ssing |
 |       | to    |       |       |       |       |       | v     |
 |       | feed  |       |       |       |       |       | alues |
-|       | c     |       |       |       |       |       |       |
-|       | ope   |       |       |       |       |       |       |
+|       | c ope |       |       |       |       |       |       |
 |       | pods, |       |       |       |       |       |       |
 |       | as    |       |       |       |       |       |       |
 |       | well  |       |       |       |       |       |       |
@@ -250,15 +246,14 @@ Hypotheses:
 |       | fee   |       |       |       |       |       |       |
 |       | dings |       |       |       |       |       |       |
 +-------+-------+-------+-------+-------+-------+-------+-------+
-| Exper | R     | Inde  | 1 & 2 | N     | Days  | 0-5   | There |
-| im    | epl   | pe    |       | u     |       |       | s     |
-| ental | icate | ndent |       | meric |       |       | hould |
-| Re    | that  |       |       |       |       |       | be no |
-| pl    | the   |       |       |       |       |       | mi    |
-| icate | ex    |       |       |       |       |       | ssing |
-|       | per   |       |       |       |       |       | v     |
-|       | iment |       |       |       |       |       | alues |
-|       | is o  |       |       |       |       |       |       |
+| Exper | R epl | Inde  | 1 & 2 | N u   | Days  | 0-5   | There |
+| im    | icate | pe    |       | meric |       |       | s     |
+| ental | that  | ndent |       |       |       |       | hould |
+| Re pl | the   |       |       |       |       |       | be no |
+| icate | ex    |       |       |       |       |       | mi    |
+|       | per   |       |       |       |       |       | ssing |
+|       | iment |       |       |       |       |       | v     |
+|       | is o  |       |       |       |       |       | alues |
 |       | ccu   |       |       |       |       |       |       |
 |       | rring |       |       |       |       |       |       |
 +-------+-------+-------+-------+-------+-------+-------+-------+
