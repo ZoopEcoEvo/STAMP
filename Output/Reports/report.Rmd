@@ -106,6 +106,7 @@ prelim_data %>%
 
 ctmax_data %>% 
   ggplot(aes(x = treatment, y = ctmax)) + 
+  facet_wrap(exp_rep~.) + 
   geom_boxplot() +
   geom_point() + 
   labs(x = "Treatment", 
