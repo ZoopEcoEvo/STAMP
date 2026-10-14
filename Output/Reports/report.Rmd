@@ -105,8 +105,7 @@ prelim_data %>%
 ```{r ctmax-boxplots, fig.width=8, fig.height=8}
 
 ctmax_data %>% 
-  ggplot(aes(x = treatment, y = ctmax)) + 
-  facet_wrap(exp_rep~.) + 
+  ggplot(aes(x = treatment, y = ctmax)) +
   geom_boxplot() +
   geom_point() + 
   labs(x = "Treatment", 
@@ -114,7 +113,6 @@ ctmax_data %>%
   theme_matt()
 
 ```
-
 
 ```{r}
 
@@ -142,7 +140,7 @@ contrasts = emmeans(ctmax.model, ~treatment) |> contrast(method = "trt.vs.ctrl")
                                 "microplastics - control",
                                 "warming - control", 
                                 "combined - control"))
-  
+
 contrasts |> 
   ggplot(aes(x = contrast, y = estimate)) +
   geom_hline(yintercept = 0, colour = "grey") + 
